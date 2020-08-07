@@ -13,6 +13,8 @@
 		32D6FC6E24DD5F93002A6541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D6FC6C24DD5F93002A6541 /* Main.storyboard */; };
 		32D6FC7024DD5F94002A6541 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D6FC6F24DD5F94002A6541 /* Assets.xcassets */; };
 		32D6FC7324DD5F94002A6541 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32D6FC7124DD5F94002A6541 /* LaunchScreen.storyboard */; };
+		32D6FC7C24DD6010002A6541 /* NewsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D6FC7A24DD6010002A6541 /* NewsListVC.swift */; };
+		32D6FC7D24DD6010002A6541 /* NewsListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32D6FC7B24DD6010002A6541 /* NewsListVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		32D6FC6F24DD5F94002A6541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32D6FC7224DD5F94002A6541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32D6FC7424DD5F94002A6541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32D6FC7A24DD6010002A6541 /* NewsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListVC.swift; sourceTree = "<group>"; };
+		32D6FC7B24DD6010002A6541 /* NewsListVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsListVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				32D6FC6F24DD5F94002A6541 /* Assets.xcassets */,
 				32D6FC7124DD5F94002A6541 /* LaunchScreen.storyboard */,
 				32D6FC7424DD5F94002A6541 /* Info.plist */,
+				32D6FC7A24DD6010002A6541 /* NewsListVC.swift */,
+				32D6FC7B24DD6010002A6541 /* NewsListVC.xib */,
 			);
 			path = newsapp;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32D6FC7324DD5F94002A6541 /* LaunchScreen.storyboard in Resources */,
+				32D6FC7D24DD6010002A6541 /* NewsListVC.xib in Resources */,
 				32D6FC7024DD5F94002A6541 /* Assets.xcassets in Resources */,
 				32D6FC6E24DD5F93002A6541 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32D6FC6B24DD5F93002A6541 /* ViewController.swift in Sources */,
+				32D6FC7C24DD6010002A6541 /* NewsListVC.swift in Sources */,
 				32D6FC6724DD5F93002A6541 /* AppDelegate.swift in Sources */,
 				32D6FC6924DD5F93002A6541 /* SceneDelegate.swift in Sources */,
 			);
