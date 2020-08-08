@@ -9,6 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsListVC" customModule="newsapp" customModuleProvider="target">
             <connections>
+                <outlet property="newsList" destination="mhL-4d-Dok" id="vcZ-Jt-u8g"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -17,13 +18,18 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mhL-4d-Dok">
-                    <rect key="frame" x="87" y="304" width="240" height="128"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mhL-4d-Dok">
+                    <rect key="frame" x="0.0" y="61" width="414" height="801"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                 </tableView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="mhL-4d-Dok" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="17" id="XWO-2J-352"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="mhL-4d-Dok" secondAttribute="trailing" id="gqz-le-hf0"/>
+                <constraint firstItem="mhL-4d-Dok" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="kjk-ex-uE4"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="mhL-4d-Dok" secondAttribute="bottom" id="qSH-qf-M9M"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="139" y="125"/>
         </view>
