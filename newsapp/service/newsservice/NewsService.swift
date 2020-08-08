@@ -12,7 +12,7 @@ class NewsService : NSObject {
   let networkService = NetworkService()
   
   func getNews(completion: @escaping(ContentResponse<NewsList>)->Void) {
-    self.networkService.request(url: "top-headlines?language=en", parameters: [:], method: .get) { (result: ContentResponse<NewsList>) in
+    self.networkService.request(url: "top-headlines?country=ru&language=ru", parameters: [:], method: .get) { (result: ContentResponse<NewsList>) in
       completion(result)
     }
   }
